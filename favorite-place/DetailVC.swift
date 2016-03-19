@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailVC.swift
 //  favorite-place
 //
 //  Created by Ryan Collins on 2016-03-19.
@@ -8,17 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DetailVC: UIViewController {
 
-    @IBOutlet weak var findOutMoreButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-    }
-    
-    override func viewWillAppear(animated: Bool) {
-        findOutMoreButton.layer.cornerRadius = 2.0
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,11 +21,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
-    @IBAction func findOutMorePressed(sender: AnyObject) {
-        
+    @IBAction func goBack(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
     }
 
 
 }
-

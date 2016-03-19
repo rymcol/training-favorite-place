@@ -12,6 +12,7 @@
 		947698FD1C9DC52D0043A035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947698FB1C9DC52D0043A035 /* Main.storyboard */; };
 		947698FF1C9DC52D0043A035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947698FE1C9DC52D0043A035 /* Assets.xcassets */; };
 		947699021C9DC52D0043A035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947699001C9DC52D0043A035 /* LaunchScreen.storyboard */; };
+		9476990A1C9DCD770043A035 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947699091C9DCD770043A035 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		947698FE1C9DC52D0043A035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		947699011C9DC52D0043A035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		947699031C9DC52D0043A035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		947699091C9DCD770043A035 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				947698F71C9DC52D0043A035 /* AppDelegate.swift */,
 				947698F91C9DC52D0043A035 /* ViewController.swift */,
+				947699091C9DCD770043A035 /* DetailVC.swift */,
 				947698FB1C9DC52D0043A035 /* Main.storyboard */,
 				947698FE1C9DC52D0043A035 /* Assets.xcassets */,
 				947699001C9DC52D0043A035 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				947698FA1C9DC52D0043A035 /* ViewController.swift in Sources */,
 				947698F81C9DC52D0043A035 /* AppDelegate.swift in Sources */,
+				9476990A1C9DCD770043A035 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
